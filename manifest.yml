@@ -1,6 +1,8 @@
 ---
 applications:
-- name: MySQLDemo
-  path: target/MySQLDemo-0.0.1-SNAPSHOT.jar
+- name: crunchy-demo
+  random-route: true
+  buildpack: java_buildpack_offline
+  path: target/CrunchyDemo-0.0.1-SNAPSHOT.jar
   services:
-  - test-mysql
+  - test-cups
