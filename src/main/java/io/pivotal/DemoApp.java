@@ -5,10 +5,10 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
 @EnableJpaRepositories(basePackages = "io.pivotal.repo")
-public class MySQLDemoApp {
+public class DemoApp {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MySQLDemoApp.class, args);
+		SpringApplication.run(DemoApp.class, args);
 	}
 	
 }
